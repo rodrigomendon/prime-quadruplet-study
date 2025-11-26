@@ -14,7 +14,7 @@ This repository contains the full study, datasets, algorithms, and dashboards as
 The work introduces the concept of Arithmetic Shielding, a method based on Primorial Bases (products of the first primes) multiplied by sequential prime multipliers to detect Prime Quadruplets of the form:
 
 (𝑝, 𝑝+2, 𝑝+6, 𝑝+8)
-(p,p+2,p+6,p+8)
+
 
 Using this method, the experiment identified:
 
@@ -39,7 +39,6 @@ Este repositório reúne o estudo completo, os dados, o código e os dashboards 
 A técnica de Blindagem Aritmética elimina divisores pequenos da vizinhança dos números candidatos, elevando significativamente a chance de primalidade.
 Foram encontrados 717 quadrupletos, incluindo valores na casa de 6 trilhões, e o grupo de controle confirmou eficiência exclusiva das bases primoriais.
 
-📂 Repository Structure
 📁 root
 │
 ├── 📄 Prime Cluster Hunting.pdf           # English full paper
@@ -63,6 +62,7 @@ Foram encontrados 717 quadrupletos, incluindo valores na casa de 6 trilhões, e 
 │   └── prime_clusters_4849845.py          # Python generating all results
 │
 └── 📄 README.md
+
 
 ▶️ Running the Code
 
@@ -92,12 +92,13 @@ Dashboards (HTML)
 
 Summary statistics
 
-📊 Key Results (Highlights)
-Base        Primorial	    Quadruplets	Max Magnitude
-105	        258	          135 million
-15,015	    265	          19 billion
-255,255	    194	          331 billion
-4,849,845  	153	          6.29 trillion
+| Base Primorial | Quadruplets | Max Magnitude     |
+| -------------- | ----------- | ----------------- |
+| **105**        | 258         | 135 million       |
+| **15,015**     | 265         | 19 billion        |
+| **255,255**    | 194         | 331 billion       |
+| **4,849,845**  | 153         | **6.29 trillion** |
+
 
 Control group (non-primorial bases): 0 quadruplets
 → Confirming the structural effect of Arithmetic Shielding.
