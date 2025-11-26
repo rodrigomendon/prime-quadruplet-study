@@ -80,20 +80,6 @@ Heuristic prime-search algorithms
 
 Research on prime constellations
 
-📄 Suggested Citation
-
-APA
-Oliveira, R. M. (2025). Prime Cluster Hunting: A Deterministic and Heuristic Analysis of Prime Quadruplet Generation via Primorial Bases. GitHub. https://github.com/rodrigomendon/prime-quadruplet-study
-
-BibTeX
-
-@article{oliveira2025primeclusters,
-  title={Prime Cluster Hunting: A Deterministic and Heuristic Analysis of Prime Quadruplet Generation via Primorial Bases},
-  author={Oliveira, Rodrigo Mendonça de},
-  year={2025},
-  publisher={GitHub},
-  url={[https://github.com/rodrigomendon/prime-quadruplet-study]}
-}
 
 📬 Contact
 
@@ -106,16 +92,5 @@ Rodrigo Mendonça de Oliveira
 
 🛡️ License
 
-I recommend matching the license you selected for arXiv:
-
 CC BY-NC-ND 4.0 — Creative Commons Attribution-NonCommercial-NoDerivatives
 
-This allows:
-
-Free sharing
-
-Attribution to you
-
-Prevents commercial use
-
-Prevents modifications.
