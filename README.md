@@ -6,27 +6,6 @@ A Study on the Generation of Prime Quadruplets Using Primorial Bases
 Author: Rodrigo Mendonça de Oliveira
 Date: November 24, 2025
 
-📌 Overview
-
-This repository contains the full study, datasets, algorithms, and dashboards associated with the paper:
-“Prime Cluster Hunting: A Deterministic and Heuristic Analysis of Prime Quadruplet Generation via Primorial Bases.”
-
-The work introduces the concept of Arithmetic Shielding, a method based on Primorial Bases (products of the first primes) multiplied by sequential prime multipliers to detect Prime Quadruplets of the form:
-
-(𝑝, 𝑝+2, 𝑝+6, 𝑝+8)
-
-
-Using this method, the experiment identified:
-
-870 Prime Quadruplets
-
-Quadruplets reaching magnitudes of 6 trillion
-
-10,000+ clusters with ≥3 primes (observed via dashboards)
-
-0 occurrences in control groups (non-primorial bases)
-
-This validates the non-random, structural nature of the phenomenon.
 
 🧠 Abstract (English)
 
@@ -37,31 +16,7 @@ Tests conducted on home hardware using Python confirmed the effectiveness of pri
 
 Este repositório reúne o estudo completo, os dados, o código e os dashboards usados na pesquisa “Caça aos Aglomerados Primos”. O método utiliza Bases Primoriais multiplicadas por primos sequenciais para localizar Quadrupletos Primos na forma (p, p+2, p+6, p+8).
 A técnica de Blindagem Aritmética elimina divisores pequenos da vizinhança dos números candidatos, elevando significativamente a chance de primalidade.
-Foram encontrados 717 quadrupletos, incluindo valores na casa de 6 trilhões, e o grupo de controle confirmou eficiência exclusiva das bases primoriais.
-
-📁 root
-│
-├── 📄 Prime Cluster Hunting.pdf           # English full paper
-├── 📄 Caça aos Aglomerados Primos.pdf     # Portuguese full paper
-│
-├── 📁 Data & Results
-│   ├── relatorio_completo_quadrupletos.html
-│   ├── relatorio_quadrupletos_base_255255.html
-│   ├── relatorio_quadrupletos_base_4849845.html
-│   ├── relatorio_quadrupletos_controle.html
-│
-├── 📁 Dashboards (HTML interactive)
-│   ├── dashboard_base_255255.html
-│   ├── dashboard_base_4849845.html
-│   ├── dashboard_comparativo100k.html
-│   ├── dashboard_comparativo10k.html
-│   ├── dashboard_comparativo_controle.html
-│   ├── dashboard_primos1.html
-│
-├── 🧮 Code
-│   └── prime_clusters_4849845.py          # Python generating all results
-│
-└── 📄 README.md
+Foram encontrados 870 quadrupletos, incluindo valores na casa de 6 trilhões, e o grupo de controle confirmou eficiência exclusiva das bases primoriais.
 
 
 ▶️ Running the Code
